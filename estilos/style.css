@@ -16,8 +16,21 @@ a{
     text-decoration: none;
     color: white;
 }
-div#container_texto h1,h2{
+/*pai*/
+div#container{
+    display: flex;
+}
+/*filho*/
+div#texto h1,h2{
     color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+/*filho*/
+div#foto img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
 }
 span{
     color:#2ce896 ;
