@@ -10,3 +10,92 @@ Breakpoint: min-width: 1025px e max-width: 1440px
 Desktops Grandes (4K e telas maiores):
 Breakpoint: min-width: 1441px
 */
+@media screen and (min-width:483px) and (max-width:767px){
+    div#container{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    div#texto h1,h2{
+        color: white;
+        margin-left: 50px;
+    }
+    div#texto h1{
+        font-size: 2.0em;
+    }
+    div#texto h2{
+        font-size: 1.0em;
+    }
+    div#foto img{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+    }
+}
+/*Tablet*/
+@media screen and (min-width:768px) and (max-width:1024px){
+    div#container{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    div#texto h1,h2{
+        color: white;
+        margin-left: 50px;
+    }
+    div#texto h1{
+        font-size: 3.6em;
+    }
+    div#texto h2{
+        font-size: 1.4em;
+    }
+    div#foto img{
+        height: 260px;
+        width: 260px;
+        border-radius: 50%;
+    }
+}
+/*Desktop*/
+@media screen and (min-width:1025px) and (max-width:1440px){
+    div#container{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 100px;
+    }
+    div#texto h1,h2{
+        color: white;
+        margin-left: 50px;
+    }
+    div#texto h1{
+        font-size: 3.8em;
+    }
+    div#texto h2{
+        font-size: 1.6em;
+    }
+    div#foto img{
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+}
+/*Telas Grandes*/
+@media screen and (min-width:1441px) {
+    div#container{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 240px;
+    }
+    div#texto h1,h2{
+        color: white;
+        margin-left: 70px;
+    }
+    div#texto h1{
+        font-size: 4.0em;
+    }
+    div#texto h2{
+        font-size: 1.7em;
+    }
+    div#foto img{
+        height: 350px;
+        width: 350px;
+        border-radius: 50%;
+    }
+}
