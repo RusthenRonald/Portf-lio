@@ -27,7 +27,7 @@ nav a:hover{
 div#container{
     display: flex;
     flex-wrap: wrap;
-    
+    margin-bottom: 50px;
 }
 /*filho*/
 div#texto h1,h2{
@@ -51,4 +51,19 @@ div#texto h2{
 
 span{
     color:#2ce896 ;
+}
+section#sobre_mim{
+    border-left: 3px solid white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+section#sobre_mim p{
+    color: white;
+    text-align: justify;
+}
+section#sobre_mim h3{
+    color: #2ce896;
 }

@@ -98,4 +98,15 @@ Breakpoint: min-width: 1441px
         width: 350px;
         border-radius: 50%;
     }
+    section#sobre_mim{
+        margin-left: 50px;
+    }
+    section#sobre_mim p{
+        width: 60vw;
+        font-size: 1.5em;
+    }
+    section#sobre_mim h3{
+        font-size: 2em;
+    }
 }
+
