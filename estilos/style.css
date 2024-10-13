@@ -12,4 +12,9 @@ nav{
 }
 a{
     padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+div#container_texto h1,h2{
+    color: white;
 }
