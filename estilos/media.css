@@ -69,11 +69,22 @@ Breakpoint: min-width: 1441px
     }
     div#texto h2{
         font-size: 1.6em;
+        padding-top: 35px;
     }
     div#foto img{
         height: 300px;
         width: 300px;
         border-radius: 50%;
+    }
+    section#sobre_mim{
+        margin-left: 50px;
+    }
+    section#sobre_mim p{
+        width: 60vw;
+        font-size: 1.5em;
+    }
+    section#sobre_mim h3{
+        font-size: 1.8em;
     }
 }
 /*Telas Grandes*/
