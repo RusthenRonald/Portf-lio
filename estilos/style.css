@@ -26,6 +26,7 @@ nav a{
 }
 nav a:hover{
     color: #2ce896;
+    transform: scale(1.10);
 }
 /*pai*/
 div#container{
@@ -74,4 +75,18 @@ section#sobre_mim p{
 }
 section#sobre_mim h3{
     color: #2ce896;
+}
+
+.img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+
+}
+@keyframes flutuar{
+    0%{
+        top: 0;
+    }
+    100%{
+        top:30px;
+    }
 }
