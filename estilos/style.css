@@ -64,7 +64,9 @@ section#sobre_mim{
     flex-direction: column;
     justify-content: center;
     padding-left: 30px;
-    background-color: #797a7d4b;
+    background-color: #797a7d36;
+    border-radius: 5px;
+    margin-bottom: 20px;
 }
 section#sobre_mim p{
     color: white;

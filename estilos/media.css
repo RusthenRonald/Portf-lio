@@ -92,6 +92,7 @@ Breakpoint: min-width: 1441px
     }
     div#texto h2{
         font-size: 1.7em;
+        padding-top: 35px;
     }
     div#foto img{
         height: 350px;
